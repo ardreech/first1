@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'Courier New', monospace;
+            color: #4a90e2; /* Soft Blue */
+            font-size: 2em;
+            margin-bottom: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1:hover {
+            color: #e94e77;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        h4 {
+            font-family: 'Courier New', monospace;
+            color: #50e3c2;
+            font-size: 1.2em;
+            margin-left: 20px;
+            line-height: 1.4;
+        }
+
+        h4 i {
+            font-style: italic;
+        }
+
+        h4:hover {
+            color: #e94e77;
+            transition: color 0.5s ease;
+        }
+
+        .container h4 {
+            margin-left: 30px;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #f9f9f9, #d6f4f1);
+        }
+
+        .section:hover {
+            background-color: #e1f7f6;
+            border-radius: 8px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .section {
+            border-left: 5px solid #50e3c2;
+            padding-left: 15px;
+            transition: border-color 0.3s ease;
+        }
+
+        .section:hover {
+            border-color: #e94e77;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            h4 {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="file:///C:/Users/User/Pictures/monkey.jpg" alt="Picture">
+        </div>
+
+        <section class="section">
+            <h1>Names:</h1>
+            <h4><i>Ardrich R. Boado</i></h4>
+            <h4><i>Tony Joe M. Arevalo</i></h4>
+        </section>
+        
+        <section class="section">
+            <h1>Ages:</h1>
+            <h4><i>19</i></h4>
+            <h4><i>23</i></h4>
+        </section>
+        
+        <section class="section">
+            <h1>Hobbies:</h1>
+            <h4><i>Basketball</i></h4>
+            <h4><i>Jogging</i></h4>
+            <h4><i>Working-out</i></h4>
+        </section>
+    </div>
+</body>
+</html>
